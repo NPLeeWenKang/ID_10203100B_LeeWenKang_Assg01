@@ -12,6 +12,7 @@ a{
 body{
     background-image: linear-gradient(to top,#a18cd1 0%, #330867 100%);
 }
+/* Landing Area CSS component */
 #LandingBanner {
     display: block;
     position: relative;
@@ -50,13 +51,76 @@ body{
 .link {
     font-size: 20px;
     margin-bottom: 10px;
-    scroll-behavior: smooth;
 }
 .link :hover{
     color: rgba(255, 255, 255, 0.8);
 }
+@media (max-width: 500px){
+/* Handles font-size in mobile view */
+    #name {
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    
+    #detail {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .link {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+}
+/* Project CSS component */
 #ProjectBanner {
     display: block;
     width: 100%;
     height: 100%;
+}
+/* Footer CSS component */
+#footerContent {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #333;
+}
+#socialsContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#GitHubBlock {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#LinkedInBlock {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#emailBlock {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#GitHubIMG {
+    width: 20px;
+    height: auto;
+}
+#LinkedInIMG {
+    width: 20px;
+    height: auto;
+}
+#MadeByText{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12;
+    position: absolute;
+    left: 50%;
+    top: calc(50% + 20px);
+    transform: translate(-50%,-50%);
 }

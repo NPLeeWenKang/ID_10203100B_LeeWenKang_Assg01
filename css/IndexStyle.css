@@ -9,8 +9,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
 body{
-    background-image: linear-gradient(to top,#a18cd1 0%, #330867 100%);
+    background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%);
 }
 /* Landing Area CSS component */
 #LandingBanner {
@@ -18,6 +19,7 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
+    margin-bottom: 100px;
 }
 #ImageBlock{
     position: absolute;
@@ -74,10 +76,46 @@ body{
 }
 /* Project CSS component */
 #ProjectBanner {
-    display: block;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100%;
 }
+.EachProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 350px;
+    height: 500px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.ImageDiv{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px;
+}
+.EachProject p{
+    margin: 10px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.EachProject:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+@media (max-width: 500px){
+    /* Handles font-size in mobile view */
+    .EachProject {
+        flex: 0 0 300px;
+        height: 450px;
+    }
+    }
 /* Footer CSS component */
 #footerContent {
     position: relative;

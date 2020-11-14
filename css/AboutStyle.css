@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%);
+}
+#BackButtonBlock{
+    width: 100%;
+    position: relative;
+    height: 80px;
+    
+}
+#backBlock {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 0.2s;
+}
+#backBlock:hover{
+    left: 5px;
+}
+
+nav{
+    position: relative;
+    background-color: ivory;
+}
+nav #HeadingText{
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.NavButton{
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    min-width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
+#Triangle{
+    position: absolute;
+    left: 50%;
+    bottom: px;
+    transform: translate(-50%);
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 20px solid ivory;
+}
+/* Footer CSS component */
+#footerContent {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #333;
+}
+#socialsContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#GitHubBlock {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#LinkedInBlock {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#emailBlock {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#GitHubIMG {
+    width: 20px;
+    height: auto;
+}
+#LinkedInIMG {
+    width: 20px;
+    height: auto;
+}
+#MadeByText{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12;
+    position: absolute;
+    left: 50%;
+    top: calc(50% + 20px);
+    transform: translate(-50%,-50%);
+}

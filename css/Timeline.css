@@ -1,0 +1,100 @@
+/* Reference: https://www.w3schools.com/howto/howto_css_timeline.asp */
+*{
+    box-sizing: border-box;
+}
+#TimelineSection{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#TimelineSection::after {
+    /* 
+    Means no content after the div, makes the div after Section to move to the center.
+    Alternative way to do this is to "absolute" a child then move it to the center.
+    */
+    content: ''; 
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.container {
+    padding: 10px 40px;
+    width: 50%;
+    position: relative;
+}
+.container::after{
+    /* Creates the triange on the Timeline
+    ** does not handle the LEFT and RIGHT position */
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: aquamarine;
+    border: white 4px solid;
+    position: absolute;
+    top: 20px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.content{
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+.left {
+    left: 0;
+}
+.right {
+    left: 50%;
+}
+.left::after{
+    /* ** handles the LEFT from ".container::after" */
+    right: -12px;
+}
+.right::after{
+    /* ** handles the LEFT from ".container::after" */
+    left: -12px;
+}
+.container::before{
+    /* BEFORE is used as AFTER is already used to create the 45deg square */
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.left::before{
+    right: 35px;
+}
+.right::before{
+    left: 35px;
+}
+@media (max-width: 500px){
+    .left {
+        left: 40px;
+    }
+    .right {
+        left: 40px;
+    }
+    .left::after{
+        /* ** handles the LEFT from ".container::after" */
+        left: -12px;
+    }
+    .left::before{
+        left: 35px;
+    }
+    #TimelineSection::after {
+        left: 40px;
+    }
+    .container {
+        width: calc(100% - 40px);
+    }
+}

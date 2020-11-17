@@ -57,7 +57,6 @@ nav div{
 #Triangle{
     position: absolute;
     left: 50%;
-    bottom: px;
     transform: translate(-50%);
     width: 0;
     height: 0;
@@ -65,6 +64,68 @@ nav div{
     border-right: 40px solid transparent;
     border-top: 20px solid ivory;
 }
+#MyHistorySection {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+#imageBlock {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-color: white;
+    margin-bottom: 10px;
+}
+@media (max-width: 800px) {
+    #imageBlock {
+        max-width: 200px;
+        max-height: 200px;
+        
+    }
+}
+#linkBlock span a{
+    color: #86e3ef;
+}
+#descriptionBlock {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+@media (max-width: 800px) {
+    #descriptionBlock {
+        width: 90%;
+        text-align: justify;
+        font-size: 17px;
+    }
+}
+@media (max-width: 550px) {
+    #descriptionBlock {
+        width: 100%;
+        text-align: justify;
+        font-size: 17px;
+    }
+}
+
+#TimelineHeader{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 20px;
+}
+
 /* Footer CSS component */
 #footerContent {
     position: relative;

@@ -10,7 +10,6 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
 body{
     background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%);
 }
@@ -117,13 +116,38 @@ nav div{
     }
 }
 
-#TimelineHeader{
+.SectionHeader{
     font-size: 25px;
     text-align: center;
     color: white;
     font-weight: 500;
     text-decoration: underline;
     margin: 20px;
+}
+#ValuesSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.IconContainer{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    transform: rotate(45deg);
+    background-color: aquamarine;
+    border: 10px white solid;
+    margin: 30px;
+}
+#ValuesSection p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.IconContainer img{
+
+    transform: rotate(-45deg);
+
 }
 
 /* Footer CSS component */

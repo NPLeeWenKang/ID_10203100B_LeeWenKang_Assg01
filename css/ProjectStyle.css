@@ -29,57 +29,20 @@ body{
 #backBlock:hover{
     left: 5px;
 }
-/* Nav area CSS component */
-nav{
-    position: relative;
-    background-color: ivory;
-}
-nav #HeadingText{
-    text-align: center;
-    margin: 10px;
-    font-size: 25px;
-}
-nav div{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.NavButton{
-    padding: 10px;
-    margin: 10px;
-    width: 20%;
-    min-width: 200px;
-    text-align: center;
-    border: 1px solid black;
-    background-color: white;
-}
-#Triangle{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    width: 0;
-    height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-top: 20px solid ivory;
-}
+
 /* MyHistory CSS component */
 #MyHistorySection {
     width: 90%;
     margin: auto;
     display: flex;
-    margin-top: 60px;
     margin-bottom: 50px;
     flex-direction: column;
     align-items: center;
     color: white;
 }
 #imageBlock {
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
+    max-width: 100%;
+    width: 60%;
     background-size: cover;
     background-color: white;
     margin-bottom: 10px;
@@ -96,6 +59,15 @@ nav div{
     font-size: 18px;
     text-align: justify;
 }
+@media (max-width: 1200px) {
+    /* If screen size is less than 800px, then change the width of element */
+    #descriptionBlock {
+        width: 80%;
+    }
+    #imageBlock {
+        width: 80%;
+    }
+}
 @media (max-width: 800px) {
     /* If screen size is less than 800px, then change the width of element */
     #descriptionBlock {
@@ -104,9 +76,7 @@ nav div{
         font-size: 17px;
     }
     #imageBlock {
-        max-width: 200px;
-        max-height: 200px;
-        
+        width: 90%;
     }
 }
 @media (max-width: 550px) {
@@ -117,7 +87,9 @@ nav div{
         font-size: 17px;
     }
 }
-
+.TextBlock{
+    font-size: 18px;
+}
 .SectionHeader{
     font-size: 25px;
     text-align: center;
@@ -138,8 +110,8 @@ nav div{
     height: 100px;
     padding: 5px;
     transform: rotate(45deg);
-    background-color: aquamarine;
-    border: 10px white solid;
+    background-color: white;
+    border: 5px #333 solid;
     margin: 30px;
 }
 #ValuesSection p{
@@ -150,32 +122,31 @@ nav div{
 .IconContainer img{
     transform: rotate(-45deg);
 }
-
 /* Footer CSS component */
-#footer-content {
+#footerContent {
     position: relative;
     width: 100%;
     height: 100px;
     margin-top: 50px;
     background-color: #333;
 }
-#socials-content {
+#socialsContent {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
-#github-block {
+#GitHubBlock {
     display: inline;
     margin-left: 5px;
     margin-right: 5px;
 }
-#linkedin-block {
+#LinkedInBlock {
     display: inline;
     margin-left: 5px;
     margin-right: 5px;
 }
-#email-block {
+#emailBlock {
     display: inline;
     margin-left: 5px;
     margin-right: 5px;
@@ -188,7 +159,7 @@ nav div{
     width: 20px;
     height: auto;
 }
-#made-by-text{
+#MadeByText{
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 12;

@@ -3,12 +3,14 @@
 Name: Lee Wen Kang
 Class: P03
 ID: 10203100B
+Website URL: https://github.com/NPLeeWenKang/ID_10203100B_LeeWenKang_Assg01
 ## Todo
 ---
 | Task        | Status           | Date finished  |
 | ------------- |:-------------:| -----:|
-| Add other projects in to index.html      |  |  |
-| Edit CSS tag names to be best practice      |      |    |
+| Add other projects in to index.html      | done | 20/11/2020 |
+| Create other project's individual page      |  |  |
+| Edit CSS tag names to be best practice      |   done   |  20/11/2020  |
 | Make "Contact Me" page |       |     |
 | Finish making the README.mb |       |     |
 | Organise and rename src images |       |     |

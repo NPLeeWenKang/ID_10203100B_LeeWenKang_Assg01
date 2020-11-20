@@ -6,14 +6,14 @@ What I Learnt:
 *{
     box-sizing: border-box;
 }
-#TimelineSection{
+#timeline-section{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 70px;
 }
 
-#TimelineSection::after {
+#timeline-section::after {
     /* 
     Means no content after the div, makes the div after Section to move to the center.
     Alternative way to do this is to "absolute" a child then move it to the center.
@@ -106,7 +106,7 @@ What I Learnt:
     .left::before{
         left: 35px;
     }
-    #TimelineSection::after {
+    #timeline-section::after {
         left: 40px;
     }
     .container {

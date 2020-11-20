@@ -14,19 +14,19 @@ body{
     background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%);
 }
 /* Back button CSS component */
-#BackButtonBlock{
+#back-button-block{
     width: 100%;
     position: relative;
     height: 80px;
     
 }
-#backBlock {
+#back-block {
     position: absolute;
     left: 10px;
     top: 10px;
     transition: 0.2s;
 }
-#backBlock:hover{
+#back-block:hover{
     left: 5px;
 }
 /* Nav area CSS component */
@@ -34,7 +34,7 @@ nav{
     position: relative;
     background-color: ivory;
 }
-nav #HeadingText{
+nav #heading-text{
     text-align: center;
     margin: 10px;
     font-size: 25px;
@@ -45,7 +45,7 @@ nav div{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.NavButton{
+.nav-button{
     padding: 10px;
     margin: 10px;
     width: 20%;
@@ -54,7 +54,7 @@ nav div{
     border: 1px solid black;
     background-color: white;
 }
-#Triangle{
+#triangle{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -65,7 +65,7 @@ nav div{
     border-top: 20px solid ivory;
 }
 /* MyHistory CSS component */
-#MyHistorySection {
+#my-history-section {
     width: 90%;
     margin: auto;
     display: flex;
@@ -75,7 +75,7 @@ nav div{
     align-items: center;
     color: white;
 }
-#imageBlock {
+#image-block {
     max-width: 300px;
     max-height: 300px;
     border-radius: 50%;
@@ -84,10 +84,10 @@ nav div{
     background-color: white;
     margin-bottom: 10px;
 }
-#linkBlock span a{
+#link-block span a{
     color: #86e3ef;
 }
-#descriptionBlock {
+#description-block {
     font-family: 'Source Sans Pro', sans-serif;
     width: 60%;
     margin: auto;
@@ -98,12 +98,12 @@ nav div{
 }
 @media (max-width: 800px) {
     /* If screen size is less than 800px, then change the width of element */
-    #descriptionBlock {
+    #description-block {
         width: 90%;
         text-align: justify;
         font-size: 17px;
     }
-    #imageBlock {
+    #image-block {
         max-width: 200px;
         max-height: 200px;
         
@@ -111,14 +111,14 @@ nav div{
 }
 @media (max-width: 550px) {
     /* If screen size is less than 550px, then change the width of element */
-    #descriptionBlock {
+    #description-block {
         width: 100%;
         text-align: justify;
         font-size: 17px;
     }
 }
 
-.SectionHeader{
+.section-header{
     font-size: 25px;
     text-align: center;
     color: white;
@@ -127,13 +127,13 @@ nav div{
     margin: 20px;
 }
 /* MyValues CSS component */
-#ValuesSection{
+#values-section{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.IconContainer{
+.icon-container{
     width: 100px;
     height: 100px;
     padding: 5px;
@@ -142,58 +142,12 @@ nav div{
     border: 10px white solid;
     margin: 30px;
 }
-#ValuesSection p{
+#values-section p{
     text-align: center;
     color: white;
     font-size: 18px;
 }
-.IconContainer img{
+.icon-container img{
     transform: rotate(-45deg);
 }
 
-/* Footer CSS component */
-#footer-content {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    margin-top: 50px;
-    background-color: #333;
-}
-#socials-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-#github-block {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#linkedin-block {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#email-block {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#GitHubIMG {
-    width: 20px;
-    height: auto;
-}
-#LinkedInIMG {
-    width: 20px;
-    height: auto;
-}
-#made-by-text{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 12;
-    position: absolute;
-    left: 50%;
-    top: calc(50% + 20px);
-    transform: translate(-50%,-50%);
-}

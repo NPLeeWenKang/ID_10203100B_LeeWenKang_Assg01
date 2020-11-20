@@ -19,7 +19,14 @@ ID: 10203100B
 | Chrome        |  Edge          | Internet Explorer  |
 | ------------- |:-------------:| -----:|
 |       |  |  |
-
+### W3school CSS validator
+| Chrome        |  Edge          | Internet Explorer  |
+| ------------- |:-------------:| -----:|
+|       |  |  |
+### W3school Markup validator
+| Chrome        |  Edge          | Internet Explorer  |
+| ------------- |:-------------:| -----:|
+|       |  |  |
 ## Deliverables
 ---
 1. What is the user's audience intent and purpose?
@@ -28,4 +35,3 @@ ID: 10203100B
 2. Who is the website catering to? What value does it provide it's users?
    
     This website is catering for my future employeers and educational institute. This website allows them to understand more about me and my many projects. It allows them to determine if I am the right candidate to hire/enrol. To cater to them, I have designed the website to be easily navigated, mobile friendly, and have provided a "Contact Me" form where they are able to use their email to contact me. In addition in the footer area, I have provided my GitHub and LinkedIn link.
-

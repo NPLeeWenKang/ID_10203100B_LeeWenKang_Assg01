@@ -14,24 +14,24 @@ body{
     background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%);
 }
 /* Back button CSS component */
-#BackButtonBlock{
+#back-button-block{
     width: 100%;
     position: relative;
     height: 80px;
     
 }
-#backBlock {
+#back-block {
     position: absolute;
     left: 10px;
     top: 10px;
     transition: 0.2s;
 }
-#backBlock:hover{
+#back-block:hover{
     left: 5px;
 }
 
 /* MyHistory CSS component */
-#MyHistorySection {
+#my-history-section {
     width: 90%;
     margin: auto;
     display: flex;
@@ -40,17 +40,17 @@ body{
     align-items: center;
     color: white;
 }
-#imageBlock {
+#image-block {
     max-width: 100%;
     width: 60%;
     background-size: cover;
     background-color: white;
     margin-bottom: 10px;
 }
-#linkBlock span a{
+#link-block span a{
     color: #86e3ef;
 }
-#descriptionBlock {
+#description-block {
     font-family: 'Source Sans Pro', sans-serif;
     width: 60%;
     margin: auto;
@@ -61,36 +61,36 @@ body{
 }
 @media (max-width: 1200px) {
     /* If screen size is less than 800px, then change the width of element */
-    #descriptionBlock {
+    #description-block {
         width: 80%;
     }
-    #imageBlock {
+    #image-block {
         width: 80%;
     }
 }
 @media (max-width: 800px) {
     /* If screen size is less than 800px, then change the width of element */
-    #descriptionBlock {
+    #description-block {
         width: 90%;
         text-align: justify;
         font-size: 17px;
     }
-    #imageBlock {
+    #image-block {
         width: 90%;
     }
 }
 @media (max-width: 550px) {
     /* If screen size is less than 550px, then change the width of element */
-    #descriptionBlock {
+    #description-block {
         width: 100%;
         text-align: justify;
         font-size: 17px;
     }
 }
-.TextBlock{
+.text-block{
     font-size: 18px;
 }
-.SectionHeader{
+.section-header{
     font-size: 25px;
     text-align: center;
     color: white;
@@ -99,13 +99,14 @@ body{
     margin: 20px;
 }
 /* MyValues CSS component */
-#ValuesSection{
+#values-section{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.IconContainer{
+.icon-container{
+    display: block;
     width: 100px;
     height: 100px;
     padding: 5px;
@@ -114,57 +115,11 @@ body{
     border: 5px #333 solid;
     margin: 30px;
 }
-#ValuesSection p{
+#values-section p{
     text-align: center;
     color: white;
     font-size: 18px;
 }
-.IconContainer img{
+.icon-container img{
     transform: rotate(-45deg);
-}
-/* Footer CSS component */
-#footerContent {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    margin-top: 50px;
-    background-color: #333;
-}
-#socialsContent {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-#GitHubBlock {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#LinkedInBlock {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#emailBlock {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#GitHubIMG {
-    width: 20px;
-    height: auto;
-}
-#LinkedInIMG {
-    width: 20px;
-    height: auto;
-}
-#MadeByText{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 12;
-    position: absolute;
-    left: 50%;
-    top: calc(50% + 20px);
-    transform: translate(-50%,-50%);
 }

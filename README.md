@@ -2,7 +2,7 @@
 Name: Lee Wen Kang<br />
 Class: P03<br />
 ID: 10203100B<br />
-Website URL: https://github.com/NPLeeWenKang/ID_10203100B_LeeWenKang_Assg01
+Website URL: https://npleewenkang.github.io/ID_10203100B_LeeWenKang_Assg01/index.html
 ## Todo
 | Task        | Status           | Date finished  |
 | ------------- |:-------------:| -----:|

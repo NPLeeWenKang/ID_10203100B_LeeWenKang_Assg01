@@ -1,11 +1,9 @@
 # Personal Portfolio
----
-Name: Lee Wen Kang
-Class: P03
-ID: 10203100B
+Name: Lee Wen Kang<br />
+Class: P03<br />
+ID: 10203100B<br />
 Website URL: https://github.com/NPLeeWenKang/ID_10203100B_LeeWenKang_Assg01
 ## Todo
----
 | Task        | Status           | Date finished  |
 | ------------- |:-------------:| -----:|
 | Add other projects in to index.html      | done | 20/11/2020 |
@@ -16,7 +14,6 @@ Website URL: https://github.com/NPLeeWenKang/ID_10203100B_LeeWenKang_Assg01
 | Organise and rename src images |       |     |
 | Check compatibility |       |     |
 ## etc
----
 ### Competability
 | Chrome        |  Edge          | Internet Explorer  |
 | ------------- |:-------------:| -----:|
@@ -30,7 +27,6 @@ Website URL: https://github.com/NPLeeWenKang/ID_10203100B_LeeWenKang_Assg01
 | ------------- |:-------------:| -----:|
 |       |  |  |
 ## Deliverables
----
 1. What is the user's audience intent and purpose?
 
    This website is personal portfolio website. This means it contains some of many projects, ways to contact me and an "About Me" page. To apply for scholarships and my future job/education, I am able to showcase my projects on my website. This allows me to collade and easily showcase my projects and myself to my future employers or teachers. Therefore, the user audience intent of this website is to view and understand more about me, so that they are able to hire/enrol the best person they can.

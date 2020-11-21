@@ -38,7 +38,7 @@
 #made-by-text{
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 12;
+    font-size: 12px;
     position: absolute;
     left: 50%;
     top: calc(50% + 20px);

@@ -115,6 +115,9 @@ body{
     border: 5px #333 solid;
     margin: 30px;
 }
+.icon-container:hover{
+    opacity: 0.8;
+}
 #values-section p{
     text-align: center;
     color: white;

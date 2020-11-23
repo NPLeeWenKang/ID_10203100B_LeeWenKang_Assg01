@@ -38,7 +38,7 @@ header{
 section{
     display: flex;
     justify-content: center;
-    min-height: calc(100% - 150px - 80px - 40px); /*screen size - backbutton height - footer height - header height*/
+    min-height: calc(100vh - 150px - 80px - 40px); /*screen size - backbutton height - footer height - header height*/
 }
 form{
     width: 90%;

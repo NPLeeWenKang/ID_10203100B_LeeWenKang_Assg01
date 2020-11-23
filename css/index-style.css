@@ -5,11 +5,14 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
 a{
     text-decoration: none;
     color: inherit;
 }
-
+img{
+    width: 100%;
+}
 body{
     background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%);
 }
@@ -18,17 +21,8 @@ body{
     display: block;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin-bottom: 100px;
-}
-#image-block{
-    position: absolute;
-    left: 20%;
-    top: 40%;
-    transform: translate(-20%, -40%);
-    max-width: 500px;
-    transform: rotate(-45deg);
-    overflow: hidden;
 }
 #content-block {
     position: absolute;

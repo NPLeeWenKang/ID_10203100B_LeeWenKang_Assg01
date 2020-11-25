@@ -12,20 +12,10 @@
     top: 50%;
     transform: translate(-50%,-50%);
 }
-#github-block {
+#socials-content>div {
     display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#linkedin-block {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#email-block {
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 #GitHubIMG {
     width: 20px;
@@ -41,6 +31,6 @@
     font-size: 12px;
     position: absolute;
     left: 50%;
-    top: calc(50% + 20px);
+    top: calc(50% + 25px);
     transform: translate(-50%,-50%);
 }

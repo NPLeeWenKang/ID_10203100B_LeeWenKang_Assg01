@@ -6,14 +6,14 @@ What I Learnt:
 *{
     box-sizing: border-box;
 }
-#timeline-section{
+#timeline-section>div{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 70px;
 }
 
-#timeline-section::after {
+#timeline-section>div::after {
     /* 
     Means no content after the div, makes the div after Section to move to the center.
     Alternative way to do this is to "absolute" a child then move it to the center.
@@ -31,6 +31,7 @@ What I Learnt:
     padding: 10px 40px;
     width: 50%;
     position: relative;
+
 }
 .container::after{
     /* 
@@ -54,14 +55,23 @@ What I Learnt:
     background-color: white;
     position: relative;
     border-radius: 6px;
+    
+}
+.left .content {
+    box-shadow: -7px 7px 7px -3px rgba(0, 0, 0, 0.3);
+}
+.right .content{
+    box-shadow: 7px 7px 7px -3px rgba(0, 0, 0, 0.3);
 }
 .left {
     /* Moves the container to the left side of the timeline. */
     left: 0;
+    
 }
 .right {
     /* Moves the container to the right side of the timeline. */
     left: 50%;
+    
 }
 .left::after{
     /* ** handles ".container::after" if the container is left*/
@@ -92,12 +102,15 @@ What I Learnt:
     /* Moves ::before to the left side of the container. */
     left: 35px;
 }
-@media (max-width: 500px){
+@media (max-width: 550px){
     .left {
-        left: 40px;
+        left: 40px; 
     }
     .right {
         left: 40px;
+    }
+    .left .content{
+        box-shadow: 7px 7px 7px -3px rgba(0, 0, 0, 0.3);
     }
     .left::after{
         /* ** handles the LEFT from ".container::after" */
@@ -106,7 +119,7 @@ What I Learnt:
     .left::before{
         left: 35px;
     }
-    #timeline-section::after {
+    #timeline-section>div::after {
         left: 40px;
     }
     .container {

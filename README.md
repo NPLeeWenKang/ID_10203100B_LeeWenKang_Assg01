@@ -9,15 +9,15 @@ Website URL: https://npleewenkang.github.io/ID_10203100B_LeeWenKang_Assg01/index
 | Add other projects in to index.html      | done | 20/11/2020 |
 | Create other project's individual page      |  |  |
 | Edit CSS tag names to be best practice      |   done   |  20/11/2020  |
-| Make "Contact Me" page |       |     |
+| Make "Contact Me" page |   done    |    22/11/2020 |
 | Finish making the README.mb |       |     |
 | Organise and rename src images |       |     |
 | Check compatibility |       |     |
 ## etc
 ### Competability
-| Chrome        |  Edge          | Internet Explorer  |
+| Chrome        |  Edge          | Firefox  |
 | ------------- |:-------------:| -----:|
-|       |  |  |
+|    Yes   | Yes | Yes |
 ### W3school CSS validator
 | Chrome        |  Edge          | Internet Explorer  |
 | ------------- |:-------------:| -----:|

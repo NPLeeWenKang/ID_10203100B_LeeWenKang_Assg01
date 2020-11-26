@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+/* This page handles the about.html page */
 *{
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -135,30 +136,7 @@ header h1{
     padding-right: 10px;
     border-bottom: 2px solid white;
 }
-/* MyValues CSS component
-#values-section>div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.icon-container{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    transform: rotate(45deg);
-    background-color: aquamarine;
-    border: 10px white solid;
-    margin: 30px;
-}
-#values-section p{
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
-.icon-container img{
-    transform: rotate(-45deg);
-} */
+/* Award CSS component */
 #award-section>div{
     display: flex;
     flex-direction: column;

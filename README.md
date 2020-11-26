@@ -27,22 +27,43 @@ Website URL: https://npleewenkang.github.io/ID_10203100B_LeeWenKang_Assg01/index
 | ------------- |:-------------:| -----:|
 |       |  |  |
 ## Design Process
-While designing this website, I had think of my "users" and how they would use and navigate the website. As a result, I tried to imagine and understand my "users" from their point of view.
+While designing this website, I had to think of my "users" and how they would use and navigate the website. As a result, I tried to imagine and understand my "users" from their point of view.
 Firstly, I identified some potential "users" that would browse my website, and why they would want to use my website.
 1. As a scholarship interviewer, I would like to know more about the interviewee. These can include his past projects, a short description about himself or his thinking mindset. By knowing more  about the interviewee, I would be able to better judge if he will make use of the scholarship to it's fullest extent.
-2. As a University , I would like to understand more about the student. I would like to know his past education institutes, some of his notable achievements and his past projects. This allows me to determine if he is passionate about the course and whether to accept his university application.
+2. As a University , I would like to understand more about the student. I would like to know his past education institutes, some of his notable achievements and his past projects. This allows me to determine if he is passionate about the course and whether to accept his university application. <br/>
 To ensure that the website was mobile friendly, I had to design and develop the website from a "Mobile First" perspective. This means that the mobile view is always the first priority. This ensures that the website is always mobile and PC friendly.
 When I was drawing my wireframe using Adobe Xd, I had to ensure that both PC and mobile views where suitable and appropriate.<br/>
 As a web developer, I have a personal "rule" I always follow. That "rule" is to always develop bit size code and always check and ensure that they contain no errors. By developing in this manner, it is easier to troubleshoot and error check, as it is easier to look and detect errors in a small chunk of code than a large chunk of code. This makes developing any software whether is it a website or a programme much easier and faster.
-![development process](/github-README-src/development-process.png?raw=true)
+![development process](/github-README-src/development-process.PNG?raw=true)
 ## Features
 Since this is a personal portfolio website. I have implemented several features to ensure that the navigation is smooth and experience is great.<br/>
 1. Viewing personal project / source code of project. In each personal project page, there is a link either to access the project or the project's Github page. One example is in the "Todo Master" project page. In that page I provided a link (https://todo-app-bb61a.firebaseapp.com/) that brings the user a place where the user can "experience" the project.
 2. Another feature is to view each technology for each project. This allows users to click on the icons which brings them to the technology's branding page. One example is in the "Box With You" project page. At the bottom, it showcases the technologies used in that project. By clicking on the icon, the user will be brought to the technology's branding page. By clicking on the Firebase icon, the user will be brought to https://firebase.google.com/.<br/>
+## Testing
+Testing is a vital part in progamming and website development. It ensures that what we are building works and is functional. Therefore, comprehensive testing methods has to be in place to help expose errors.<br/>
+### Screen size
+As the website is being hosted on the browser, both mobile and PC users would be able to access it. So to ensure that navigation and viewabiity is good on all screens, steps has to be taken to ensure that everything works. I have detail several methods I have used to test different screen sizes.<br/>
+1. Resizing browser manually
+By resizing the browser manually, I am able to quickly view my website in different view heights and widths. Although this may not be a full proof way to test screen sizes, it allows for quick and easy testing (testing while developing).
+2. Using Chrome's mobile emulator
+By inspecting the page, a button will appear. This button toggles Chrome's mobile emulator, allowing you to view the screen through different phones. This is a quick test to ensure that the contents in the screen are readable and properly aligned. However this method has several limitations, as it does not actually run the website on a mobile phone, but only simulates it. To read more about Chrome's mobile emulator: https://developers.google.com/web/tools/chrome-devtools/device-mode.
+3. Using a physical phone
+Apart from using the other methods to test my website in different screen size, I also used my Samsung J7 phone to view the website. This allows me to accurately experience how navigating and viewing the contents on a mobile phone feels like.
+### Browsers
+As HTML and CSS may be compiled differently in different browsers, it is vital test the website on different browsers. As I developed my website on Chrome, I went and tested my website on FireFox and Microsoft Edge. This allowed me to ensure that my website was functional on different browsers.
+### Links
+To test my links, I had to ensure that internal links did not open a new page, while external links like social media and Github links all opened a new page when clicked on. This is vital, as it improves the user experience.
+### Contact form
+To test the contact form, I had to perform several steps.
+1. Open the "Contact Me" page and click submit. A message should appear saying "Please fill up this form" under the email imput section.
+2. Input an invalid email, for example "user.com". A message should appear saying that the email has to contain a "@".
+3. After properly filling the email section, click submit again. Another message will appear asking the user to fill up the "Content" section.
+4. After filling the form with the proper email and content, click submit. After clicking it, the default system email application will appear, showing the message. The reciepent of the email should be "spaceycodes@gmail.com".
 ## Credits
 ### Icons
 * Bootstrap Icons (Arrow): https://icons.getbootstrap.com/icons/arrow-left-short/
 * Bootstrap Icons (Envelope): https://icons.getbootstrap.com/icons/envelope/
+* Bootstrap Icons (Link): https://icons.getbootstrap.com/icons/link-45deg/
 * Ngee Ann Logo: https://www.np.edu.sg/Pages/default.aspx
 * Christ Church Secondary logo: https://christchurchsec.moe.edu.sg/our-school/motto-n-crest
 * Si Ling Primary logo: https://silingpri.moe.edu.sg/
@@ -55,10 +76,5 @@ Since this is a personal portfolio website. I have implemented several features 
 * HTML 5 logo: https://www.w3.org/html/logo/
 * Flutter logo: https://flutter.dev/brand
 * Dart logo: https://dart.dev/brand
-## Deliverables
-1. What is the user's audience intent and purpose?
-
-   This website is personal portfolio website. This means it contains some of many projects, ways to contact me and an "About Me" page. To apply for scholarships and my future job/education, I am able to showcase my projects on my website. This allows me to collade and easily showcase my projects and myself to my future employers or teachers. Therefore, the user audience intent of this website is to view and understand more about me, so that they are able to hire/enrol the best person they can.
-2. Who is the website catering to? What value does it provide it's users?
-   
-    This website is catering for my future employeers and educational institute. This website allows them to understand more about me and my many projects. It allows them to determine if I am the right candidate to hire/enrol. To cater to them, I have designed the website to be easily navigated, mobile friendly, and have provided a "Contact Me" form where they are able to use their email to contact me. In addition in the footer area, I have provided my GitHub and LinkedIn link.
+Guides:
+* w3schools (Timeline): https://www.w3schools.com/howto/howto_css_timeline.asp

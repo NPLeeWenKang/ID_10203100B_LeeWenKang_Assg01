@@ -76,5 +76,5 @@ To test the contact form, I had to perform several steps.
 * HTML 5 logo: https://www.w3.org/html/logo/
 * Flutter logo: https://flutter.dev/brand
 * Dart logo: https://dart.dev/brand
-Guides:
+### Guides
 * w3schools (Timeline): https://www.w3schools.com/howto/howto_css_timeline.asp

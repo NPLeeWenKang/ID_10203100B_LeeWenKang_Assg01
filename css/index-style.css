@@ -13,6 +13,9 @@ a{
 img{
     width: 100%;
 }
+h1{
+    margin: 0;
+}
 body{
     /* background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%); */
     /* background-color: white; */
@@ -136,7 +139,11 @@ header h1{
     border: 1px solid black;
     border-radius: 5px;
     width: 80%;
+    min-height: 10px; /*Only needed for IE, as height auto is not supported in that browser.*/
     margin: 10px;
+}
+.each-project article {
+    width: 100%;
 }
 .each-project p{
     margin: 10px;
@@ -145,6 +152,7 @@ header h1{
 }
 .each-project h1{
     text-align: center;
+    font-size: 1.5em;
 }
 .each-project:hover{
     background-color: rgba(255, 255, 255, 0.8);

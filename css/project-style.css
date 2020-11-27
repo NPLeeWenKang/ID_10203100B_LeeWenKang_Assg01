@@ -17,6 +17,9 @@ a{
 body{
     background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%);
 }
+img{
+    width: 100%;
+}
 /* Back button CSS component */
 #back-button-block{
     width: 100%;
@@ -53,7 +56,7 @@ body{
 #link-block span a{
     color: #86e3ef;
 }
-#description-block {
+.description-block {
     font-family: 'Source Sans Pro', sans-serif;
     width: 60%;
     margin: auto;
@@ -64,7 +67,7 @@ body{
 }
 @media (max-width: 1200px) {
     /* If screen size is less than 800px, then change the width of element */
-    #description-block {
+    .description-block {
         width: 80%;
     }
     #image-block {
@@ -73,7 +76,7 @@ body{
 }
 @media (max-width: 800px) {
     /* If screen size is less than 800px, then change the width of element */
-    #description-block {
+    .description-block {
         width: 90%;
         text-align: justify;
         font-size: 17px;
@@ -84,7 +87,7 @@ body{
 }
 @media (max-width: 550px) {
     /* If screen size is less than 550px, then change the width of element */
-    #description-block {
+    .description-block {
         width: 100%;
         text-align: justify;
         font-size: 17px;

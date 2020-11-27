@@ -13,13 +13,13 @@ a{
 img{
     width: 100%;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 h1{
     margin: 0;
-}
-body{
-    /* background-image: linear-gradient(to top,#a18cd1 0%, #330867 80%); */
-    /* background-color: white; */
-    font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 /* Landing Area CSS component */
 #landing-banner {

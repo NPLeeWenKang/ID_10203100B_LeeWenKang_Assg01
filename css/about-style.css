@@ -88,7 +88,7 @@ nav div{
 #link-block span a{
     color: #86e3ef;
 }
-#description-block {
+.description-block {
     font-family: 'Source Sans Pro', sans-serif;
     width: 60%;
     margin: auto;
@@ -99,7 +99,7 @@ nav div{
 }
 @media (max-width: 800px) {
     /* If screen size is less than 800px, then change the width of element */
-    #description-block {
+    .description-block {
         width: 90%;
         text-align: justify;
         font-size: 17px;
@@ -112,7 +112,7 @@ nav div{
 }
 @media (max-width: 550px) {
     /* If screen size is less than 550px, then change the width of element */
-    #description-block {
+    .description-block {
         width: 100%;
         text-align: justify;
         font-size: 17px;

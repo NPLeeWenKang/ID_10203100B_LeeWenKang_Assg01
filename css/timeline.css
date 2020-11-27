@@ -12,7 +12,9 @@ What I Learnt:
     margin: 0 auto;
     margin-bottom: 70px;
 }
-
+#timeline-section img{
+    width: 100%;
+}
 #timeline-section>div::after {
     /* 
     Means no content after the div, makes the div after Section to move to the center.

@@ -4,7 +4,7 @@ Class: P03<br />
 ID: 10203100B<br />
 Website URL: https://npleewenkang.github.io/ID_10203100B_LeeWenKang_Assg01/index.html<br/>
 
-This project is a personal portfolio website. This website includes an landing page, about me page, and project page. This website showcases and lets visitors to know more about me and my projects.
+This project is a personal portfolio website. This website includes an landing page, about me page, and project page. This website provides me a platform where I can showcase myself and lets visitors to know more about me and my projects.
 ## Todo
 | Task        | Status           | Date finished  |
 | ------------- |:-------------:| -----:|
@@ -13,8 +13,8 @@ This project is a personal portfolio website. This website includes an landing p
 | Edit CSS tag names to be best practice      |   done   |  20/11/2020  |
 | Make "Contact Me" page |   done    |    22/11/2020 |
 | Finish making the README.mb |       |     |
-| Organise and rename src images |       |     |
-| Check compatibility |       |     |
+| Organise and rename src images |   done    |  26/11/2020   |
+| Check compatibility |   done    |   27/11/2020  |
 ## Design Process
 While designing this website, I had to think of my users and how they would use and navigate the website. As a result, I tried to imagine and understand my users from their point of view.
 Firstly, I identified some potential users that would browse my website, and why they would want to use my website.
@@ -29,9 +29,9 @@ As a web developer, I have a personal "rule" I always follow. That "rule" is to 
 
 Developing a wireframe is vital, as it help me plan out the website layout and navigation. This gives me an overview of my website, and allows me to "follow" the wireframe layout. This makes development much more efficient and quick.
 
-*PC version of XD wireframe: https://xd.adobe.com/view/2e1a46c6-e03c-4f04-9d58-0ca583770d8d-7b49/
+* PC version of XD wireframe: https://xd.adobe.com/view/2e1a46c6-e03c-4f04-9d58-0ca583770d8d-7b49/
 
-*Mobile version of XD wireframe: https://xd.adobe.com/view/a5842d5c-794d-4e71-b890-e5b6ada51c64-f0d7/
+* Mobile version of XD wireframe: https://xd.adobe.com/view/a5842d5c-794d-4e71-b890-e5b6ada51c64-f0d7/
 
 ## Features
 Since this is a personal portfolio website. I have implemented several features to ensure that the navigation is smooth and experience is great.<br/>
@@ -45,11 +45,11 @@ To check and test my website, I used w3school's CSS and Markup service. This all
 2. W3C Markup Validation Service: https://validator.w3.org/
 ### Screen size
 As the website is being hosted on the browser, both mobile and PC users would be able to access it. So to ensure that navigation and viewabiity is good on all screens, steps has to be taken to ensure that everything works. I have detail several methods I have used to test different screen sizes.<br/>
-1. Resizing browser manually
+1. Resizing browser manually<br/>
 By resizing the browser manually, I am able to quickly view my website in different view heights and widths. Although this may not be a full proof way to test screen sizes, it allows for quick and easy testing (testing while developing).
-2. Using Chrome's mobile emulator
+2. Using Chrome's mobile emulator<br/>
 By inspecting the page, a button will appear. This button toggles Chrome's mobile emulator, allowing you to view the screen through different phones. This is a quick test to ensure that the contents in the screen are readable and properly aligned. However this method has several limitations, as it does not actually run the website on a mobile phone, but only simulates it. To read more about Chrome's mobile emulator: https://developers.google.com/web/tools/chrome-devtools/device-mode.
-3. Using a physical phone
+3. Using a physical phone<br/>
 Apart from using the other methods to test my website in different screen size, I also used my Samsung J7 phone to view the website. This allows me to accurately experience how navigating and viewing the contents on a mobile phone feels like.
 ### Browsers
 As HTML and CSS may be compiled differently in different browsers, it is vital test the website on different browsers. As I developed my website on Chrome, I went and tested my website on FireFox and Microsoft Edge. This allowed me to ensure that my website was functional on different browsers.

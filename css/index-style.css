@@ -17,7 +17,7 @@ img{
 body{
     font-family: 'Roboto', sans-serif;
 }
-h1{
+h1,h2{
     margin: 0;
     padding: 0;
 }
@@ -114,7 +114,7 @@ header h1{
     padding-right: 10px;
     border-bottom: 4px solid black;
 }
-#project-banner {
+#project-banner>div {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row;
@@ -150,7 +150,7 @@ header h1{
     word-wrap: break-word;
     text-align: justify;
 }
-.each-project h1{
+.each-project h2{
     text-align: center;
     font-size: 1.5em;
 }

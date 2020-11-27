@@ -96,16 +96,23 @@ img{
 .text-block{
     font-size: 18px;
 }
-.section-header{
-    font-size: 25px;
-    text-align: center;
-    color: white;
-    font-weight: 500;
-    text-decoration: underline;
-    margin: 20px;
-}
 /* technologies-used CSS component */
-#technology-section{
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    display: inline;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    margin: 30px;
+    color: white;
+    border-bottom: 3px solid white;
+}
+#technology-section>div{
     width: 100%;
     display: flex;
     justify-content: center;

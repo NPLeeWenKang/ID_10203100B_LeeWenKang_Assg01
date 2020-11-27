@@ -2,6 +2,8 @@
 /* 
 project-style.css is a self made template css that styles all my projects.
 This file styles my project pages regardless of content. Therefore this CSS file is able to style project1 - 4.
+
+This page contains the styles for the images, the description and the headers.
 */
 *{
     font-family: 'Roboto', sans-serif;

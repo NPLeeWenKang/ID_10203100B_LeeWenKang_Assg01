@@ -12,7 +12,7 @@ This project is a personal portfolio website. This website includes an landing p
 | Create other project's individual page      | done | 23/11/2020 |
 | Edit CSS tag names to be best practice      |   done   |  20/11/2020  |
 | Make "Contact Me" page |   done    |    22/11/2020 |
-| Finish making the README.mb |       |     |
+| Finish making the README.mb |     done  |   27/11/2020  |
 | Organise and rename src images |   done    |  26/11/2020   |
 | Check compatibility |   done    |   27/11/2020  |
 ## Design Process

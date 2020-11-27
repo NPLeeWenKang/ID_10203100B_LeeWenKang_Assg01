@@ -95,6 +95,7 @@ img{
 }
 .text-block{
     font-size: 18px;
+    font-weight: 500;
 }
 /* technologies-used CSS component */
 header{
@@ -108,7 +109,8 @@ header h1{
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 500;
-    margin: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     color: white;
     border-bottom: 3px solid white;
 }
@@ -131,10 +133,11 @@ header h1{
 .icon-container:hover{
     opacity: 0.8;
 }
-#technology-section p{
+#technology-section h2{
     text-align: center;
     color: white;
     font-size: 18px;
+    font-weight: 500;
 }
 .icon-container img{
     transform: rotate(-45deg);

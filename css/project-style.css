@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
 /* 
 project-style.css is a self made template css that styles all my projects.
-This file styles my project pages regardless of content.
+This file styles my project pages regardless of content. Therefore this CSS file is able to style project1 - 4.
 */
 *{
     font-family: 'Roboto', sans-serif;
